@@ -4,4 +4,5 @@
     <string name="increment">Increment</string>
     <string name="toast">Toast</string>
     <string name="_0">0</string>
+    <string name="toast_msg">Hello Android Developers</string>
 </resources>
