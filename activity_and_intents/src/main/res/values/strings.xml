@@ -6,5 +6,5 @@
     <string name="description">This app count spaces and letters in input text, and testing how intent work</string>
     <string name="spaces_activity">Spaces Activity</string>
     <string name="letters_activity">LettersActivity</string>
-    <string name="feed_back">Feed back</string>
+    <string name="feed_back">Back</string>
 </resources>

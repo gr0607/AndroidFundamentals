@@ -14,10 +14,10 @@
         <activity android:name=".LettersActivity"
             android:label="@string/letters_activity"
             android:parentActivityName=".LettersActivity"/>
+
         <activity android:name=".SpacesActivity"
             android:label="@string/spaces_activity"
             android:parentActivityName=".MainActivity"/>
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
