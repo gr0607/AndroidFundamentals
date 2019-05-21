@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">activity_and_intents</string>
+    <string name="count_letters">Count letter</string>
+    <string name="count_spaces">Count spaces</string>
+    <string name="hint_input">Input text here</string>
+    <string name="description">This app count spaces and letters in input text, and testing how intent work</string>
+    <string name="spaces_activity">Spaces Activity</string>
+    <string name="letters_activity">LettersActivity</string>
+    <string name="feed_back">Feed back</string>
+</resources>
