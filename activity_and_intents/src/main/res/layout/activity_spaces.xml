@@ -26,6 +26,7 @@
         android:layout_marginBottom="8dp"
         android:text="@string/feed_back"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="responseSpaces"/>
 
 </android.support.constraint.ConstraintLayout>

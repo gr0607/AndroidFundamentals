@@ -3,9 +3,14 @@ package com.agrigoriev.activity_and_intents;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class SpacesActivity extends AppCompatActivity {
+
+    public static final String EXTRA_RESPONSE =  "com.agrigoriev.activity_and_intents.extra.Response";
+
+    private String response;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +23,11 @@ public class SpacesActivity extends AppCompatActivity {
 
         int spaces = countSpaces(message);
 
-        String receive = "Count of spaces : " + spaces;
+        response = "Count of spaces : " + spaces;
 
         TextView textView = findViewById(R.id.textView_spaces);
 
-        textView.setText(receive);
+        textView.setText(response);
     }
 
     public int countSpaces(String message) {
@@ -34,5 +39,12 @@ public class SpacesActivity extends AppCompatActivity {
             }
         }
         return spaces;
+    }
+
+    public void responseSpaces(View view) {
+        Intent replyIntent = new Intent();
+        replyIntent.putExtra(EXTRA_RESPONSE, response);
+        setResult(RESULT_OK, replyIntent);
+        finish();
     }
 }
