@@ -24,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mMessageText = findViewById(R.id.edit_input_text);
         mHello = findViewById(R.id.tv_hello);
+
+        if (savedInstanceState != null) {
+            mHello.setText(savedInstanceState.getString("msg"));
+        }
     }
 
     public void launchLettersActivity(View view) {
@@ -55,5 +59,11 @@ public class MainActivity extends AppCompatActivity {
                     mHello.setText(response_);
             }
         }
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("msg", mHello.getText().toString());
     }
 }
