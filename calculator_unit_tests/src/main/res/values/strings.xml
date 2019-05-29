@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">calculator_unit_tests</string>
+    <string name="enter_number">Enter number</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="multiply">*</string>
+    <string name="division">/</string>
+</resources>
