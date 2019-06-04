@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">safe_home</string>
+    <string name="action_settings">Settings</string>
+    <string name="safe_home">Safe Home</string>
+    <string name="intercom_description">Intercom - you always know who will come</string>
+    <string name="video_system_description">Video system is the worst enemy of thieves</string>
+    <string name="security_system_description">Security system is the best choice for safe home</string>
+
+    <string name="intercom_order_message">You ordered intercom mount.</string>
+    <string name="video_order_message">You ordered video system mount.</string>
+    <string name="security_order_message">You ordered security system mount.</string>
+</resources>
