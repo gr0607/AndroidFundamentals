@@ -9,4 +9,16 @@
     <string name="intercom_order_message">You ordered intercom mount.</string>
     <string name="video_order_message">You ordered video system mount.</string>
     <string name="security_order_message">You ordered security system mount.</string>
+    <string name="name_label_text">Name</string>
+    <string name="enter_your_name_hint">Enter your name</string>
+    <string name="address_label_text">Address</string>
+    <string name="enter_your_address_hint">Enter your address</string>
+    <string name="phone_label_text">Phone</string>
+    <string name="enter_your_phone_hint">Enter your phone</string>
+    <string name="note_label">Note</string>
+    <string name="enter_your_note_hint">Enter your note</string>
+    <string name="payment_label">Choose a payment method :</string>
+    <string name="cash">Cash</string>
+    <string name="credit_card">Credit card</string>
+    <string name="bank_account">Bank account</string>
 </resources>
