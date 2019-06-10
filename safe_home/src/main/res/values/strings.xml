@@ -21,4 +21,14 @@
     <string name="cash">Cash</string>
     <string name="credit_card">Credit card</string>
     <string name="bank_account">Bank account</string>
+   
+    <string name="action_contact">Contact</string>
+    <string name="action_order">Order</string>
+    <string name="action_status">Status</string>
+    <string name="action_favorite">Favorite</string>
+    
+    <string name="action_order_message">You selected Order</string>
+    <string name="action_status_message">You selected Status</string>
+    <string name="action_favorites_message">You selected Favorite</string>
+    <string name="action_contact_message">You selected Contact</string>
 </resources>
